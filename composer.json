@@ -1,0 +1,33 @@
+{
+    "name": "anazarov/example",
+    "require": {
+        "php": "^8.1",
+        "yiisoft/yii2": "~2.0.0",
+        "psr/log": "^3.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Anazarov\\": [
+                "src"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anazarov\\Tests\\": [
+                "tests"
+            ]
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.0",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*"
+    }
+}

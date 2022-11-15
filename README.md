@@ -6,3 +6,6 @@ docker exec -it my-running-app composer install
 
 # run tests
 docker exec -it my-running-app ./vendor/bin/codecept run
+
+# why yii2? 
+because I worked with this framework and I know how dependency injection works in this framework for further development
